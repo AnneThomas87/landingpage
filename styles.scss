@@ -24,9 +24,11 @@ height: 100%;
   margin-left: 20px;
   font-family: 'Keania One', sans-serif;
   font-size: 30px;
-//   letter-spacing: 10px;
- 
+  
 }
+//   letter-spacing: 10px;
+
+
 .email1 {
     width: 350px;
     height: 30px;
@@ -34,6 +36,8 @@ height: 100%;
     background-color: #d1c6f8;
     border: none ;
     margin-right: 300px;
+    box-shadow: 3px 2px 4px rgb(0, 0, 0);
+    
 }
 .email2{
     width: 350px;
@@ -44,6 +48,7 @@ height: 100%;
     margin-right: 300px;
     font-family: 'Keania One', sans-serif;
     font-size: 20px;
+    box-shadow: 3px 2px 4px rgb(0, 0, 0);
 }
 .texte {
     z-index: 1;
@@ -53,6 +58,7 @@ height: 100%;
     color: white;
     font-family: 'Keania One', sans-serif;
     font-size: 25px;
+   
 }
 .texte1 {
     z-index: 1;
@@ -63,12 +69,14 @@ height: 100%;
     color: white;
     font-family: 'Keania One', sans-serif;
     font-size: 25px;
+   
 }
 
 .competences{
     font-family: 'Keania One', sans-serif;
     text-align: center;
     font-size: 55px;
+   
 }
 .container3 {
     display: flex;
@@ -137,3 +145,58 @@ height: 100%;
     margin-right: 200px;
     margin-bottom: 100px;
   }
+
+  
+@media screen and (max-width: 800px){
+.container {
+    display:flex;
+    flex-direction: column;
+}
+.container2{
+    display:flex;
+    flex-direction: column;
+   
+}
+
+.container3{
+    display:flex;
+    flex-direction: column;
+}
+.texte{
+    font-size: 15px;
+    top: 75%;
+    right: 5%;
+}
+.texte1{
+    font-size: 15px;
+    top: 98%;
+    right: 25%;
+    left: 5%;
+}
+.email2{
+    margin-left: 290px;
+    margin-bottom: 20px;
+}
+.email1{
+    margin-left: 290px;
+    margin-bottom: 20px;
+
+}
+.email3{
+    margin-left: 290px;
+    margin-bottom: 20px;
+}
+.logo{
+    margin-left: 120px;
+}
+.container3{
+ position: absolute;
+ top: 100%;
+ left: O;
+ 
+}
+footer{
+display: none;
+
+}
+}

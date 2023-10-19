@@ -14,4 +14,3 @@ textElements.forEach((text) => {
     }
   });
 });
-  
