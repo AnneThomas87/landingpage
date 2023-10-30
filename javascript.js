@@ -14,3 +14,4 @@ textElements.forEach((text) => {
     }
   });
 });
+
