@@ -107,9 +107,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
-  height: 200vh;
   margin: 10%;
-  margin-top: -160px;
 }
 
 .card-section {
@@ -484,11 +482,6 @@ body {
   .logo {
     margin-left: 120px;
   }
-  .container3 {
-    position: absolute;
-    top: 700px;
-    left: O;
-  }
   footer {
     display: none;
   }
@@ -535,9 +528,6 @@ body {
     font-size: 12px;
     top: 600px;
     right: 10px;
-  }
-  .container3 {
-    margin-top: -500px;
   }
   .card-area {
     display: none;
