@@ -508,6 +508,7 @@ body {
   .email1 {
     width: 200px;
     margin-left: 290px;
+    cursor: pointer;
   }
   .email3 {
     top: 210px;
@@ -520,6 +521,7 @@ body {
   .message {
     width: 200px;
     left: 120px;
+    cursor: pointer;
   }
   .texte {
     font-size: 12px;
